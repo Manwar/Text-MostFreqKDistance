@@ -1,6 +1,6 @@
 package Text::MostFreqKDistance;
 
-$Text::MostFreqKDistance::VERSION = '0.01';
+$Text::MostFreqKDistance::VERSION = '0.02';
 
 =head1 NAME
 
@@ -8,7 +8,7 @@ Text::MostFreqKDistance - Estimate strings similarity.
 
 =head1 VERSION
 
-Version 0.01
+Version 0.02
 
 =cut
 
@@ -26,6 +26,8 @@ In information theory, MostFreqKDistance is a string metric technique for quickl
 estimating how similar two ordered sets or strings are.The scheme was invented by
 Sadi Evren SEKER(2014) and initially used in text mining applications like author
 recognition.
+
+Source: L<Wikipedia|http://en.wikipedia.org/wiki/Most_frequent_k_characters>
 
 =head1 SYNOPSIS
 
