@@ -19,8 +19,6 @@ WriteMakefile(
     BUILD_REQUIRES   => {
         'Test::More' => 0,
     },
-    PREREQ_PM        => {
-    },
     dist  => { COMPRESS => 'gzip -9f', SUFFIX => 'gz', },
     clean => { FILES => 'Text-MostFreqKDistance-*' },
     (eval { ExtUtils::MakeMaker->VERSION(6.46) } ? (META_MERGE => {

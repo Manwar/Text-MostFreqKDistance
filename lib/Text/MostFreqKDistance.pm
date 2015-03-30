@@ -1,6 +1,7 @@
 package Text::MostFreqKDistance;
 
-$Text::MostFreqKDistance::VERSION = '0.02';
+$Text::MostFreqKDistance::VERSION   = '0.03';
+$Text::MostFreqKDistance::AUTHORITY = 'cpan:MANWAR';
 
 =head1 NAME
 
@@ -8,7 +9,7 @@ Text::MostFreqKDistance - Estimate strings similarity.
 
 =head1 VERSION
 
-Version 0.02
+Version 0.03
 
 =cut
 
@@ -40,7 +41,7 @@ Source: L<Wikipedia|http://en.wikipedia.org/wiki/Most_frequent_k_characters>
 
 =head1 METHODS
 
-=head2 MostFreqKSDF($str1, $str2, $key, $max_distance)
+=head2 MostFreqKSDF($str1, $str2, $k, $max_distance)
 
 The method is  suitable for bioinformatics to compare the genetic strings like in
 FASTA format.
@@ -81,9 +82,9 @@ sub MostFreqKSDF {
     return ($d - $MostFreqKSDF);
 }
 
-=head2 MostFreqKHashing($string, $k)
+=head2 MostFreqKHashing($str, $k)
 
-It simply gets an input C<$string> & an integer  C<$k> value. It outputs the most
+It simply gets an input C<$str> and an  integer  C<$k> value. It outputs the most
 frequent C<$k> characters from the input string. The only  condition  during  the
 creation of output string is adding  the first occurring character first, if  the
 frequencies of two characters are equal.
@@ -91,7 +92,8 @@ frequencies of two characters are equal.
     use strict; use warnings;
     use Text::MostFreqKDistance;
 
-    print MostFreqKHashing('seeking', 2), "\n";
+    print MostFreqKHashing('seeking',  2), "\n";
+    print MostFreqKHashing('research', 2), "\n";
 
 =cut
 
@@ -169,7 +171,7 @@ You can also look for information at:
 
 =item * RT: CPAN's request tracker (report bugs here)
 
-L<http://rt.cpan.org/NoAuth/Bugs.html?Dist=Text-MOstFreqKDistance>
+L<http://rt.cpan.org/NoAuth/Bugs.html?Dist=Text-MostFreqKDistance>
 
 =item * AnnoCPAN: Annotated CPAN documentation
 

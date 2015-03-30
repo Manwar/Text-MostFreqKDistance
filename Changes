@@ -1,5 +1,12 @@
 Revision history for Text::MostFreqKDistance
 
+0.03  Mon Mar 30 11:40:00 2015
+      - Updated unit test data slightly.
+      - Added package variable $AUTHORITY.
+      - Fixed the typo in the pod document.
+      - Added more code to the pod document.
+      - Tidied up pod document in general.
+
 0.02  Sun Mar 29 19:20:00 2015
       - Added link to source wikipedia in the pod document.
 
