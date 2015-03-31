@@ -1,5 +1,8 @@
 Revision history for Text::MostFreqKDistance
 
+0.04  Tue Mar 31 10:25:00 2015
+      - Added the missing line 'use strict; use warnings;'.
+
 0.03  Mon Mar 30 11:40:00 2015
       - Updated unit test data slightly.
       - Added package variable $AUTHORITY.
