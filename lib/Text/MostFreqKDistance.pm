@@ -1,6 +1,6 @@
 package Text::MostFreqKDistance;
 
-$Text::MostFreqKDistance::VERSION   = '0.04';
+$Text::MostFreqKDistance::VERSION   = '0.05';
 $Text::MostFreqKDistance::AUTHORITY = 'cpan:MANWAR';
 
 =head1 NAME
@@ -9,7 +9,7 @@ Text::MostFreqKDistance - Estimate strings similarity.
 
 =head1 VERSION
 
-Version 0.04
+Version 0.05
 
 =cut
 
@@ -151,7 +151,7 @@ Mohammad S Anwar, C<< <mohammad.anwar at yahoo.com> >>
 
 =head1 REPOSITORY
 
-L<https://github.com/Manwar/Text-MostFreqKDistance>
+L<https://github.com/manwar/Text-MostFreqKDistance>
 
 =head1 BUGS
 

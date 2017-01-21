@@ -11,7 +11,6 @@ WriteMakefile(
     VERSION_FROM       => 'lib/Text/MostFreqKDistance.pm',
     ABSTRACT_FROM      => 'lib/Text/MostFreqKDistance.pm',
     LICENSE            => 'artistic_2',
-    PL_FILES           => {},
     MIN_PERL_VERSION   => 5.006,
     CONFIGURE_REQUIRES => {
         'ExtUtils::MakeMaker' => 0,
@@ -23,11 +22,14 @@ WriteMakefile(
     clean => { FILES => 'Text-MostFreqKDistance-*' },
     (eval { ExtUtils::MakeMaker->VERSION(6.46) } ? (META_MERGE => {
         'meta-spec' => { version => 2 },
+        provides    => {
+            'Text::MostFreqKDistance' => { file => 'lib/Text/MostFreqKDistance.pm', version => '0.05' },
+        },
         resources => {
             repository => {
                 type => 'git',
-                url  => 'https://github.com/Manwar/Text-MostFreqKDistance.git',
-                web  => 'https://github.com/Manwar/Text-MostFreqKDistance',
+                url  => 'https://github.com/manwar/Text-MostFreqKDistance.git',
+                web  => 'https://github.com/manwar/Text-MostFreqKDistance',
             },
         }})
      : ()
