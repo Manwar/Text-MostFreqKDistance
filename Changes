@@ -1,5 +1,9 @@
 Revision history for Text::MostFreqKDistance
 
+0.06  Tue Feb 14 11:55:00 2017
+      - Added test scripts (t/meta-json.t and t/meta-yml.t)
+      - Updated copyright year information.
+
 0.05  Sat Jan 21 20:00:00 2017
       - Added key 'provides' to the Makefile.PL script.
 

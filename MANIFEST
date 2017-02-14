@@ -10,3 +10,5 @@ t/01-mostfreqkhashing.t
 t/02-mostfreqksdf.t
 t/manifest.t
 t/pod.t
+t/meta-json.t
+t/meta-yml.t
