@@ -1,6 +1,6 @@
 package Text::MostFreqKDistance;
 
-$Text::MostFreqKDistance::VERSION   = '0.06';
+$Text::MostFreqKDistance::VERSION   = '0.07';
 $Text::MostFreqKDistance::AUTHORITY = 'cpan:MANWAR';
 
 =head1 NAME
@@ -9,7 +9,7 @@ Text::MostFreqKDistance - Estimate strings similarity.
 
 =head1 VERSION
 
-Version 0.06
+Version 0.07
 
 =cut
 
